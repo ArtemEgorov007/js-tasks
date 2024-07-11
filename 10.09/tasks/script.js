@@ -65,23 +65,37 @@
 
 // const result = youNumber === number ? alert("yes") : alert("no");
 //task bk 5
-let youName = prompt("you name", "");
-switch (youName) {
-	case "Artem":
-		alert("hot");
-		break;
-	case "Artur":
-		alert("welcome");
-		break;
-	case "Arut":
-		alert("wery hot");
-		break;
-	case "Ashot":
-		alert("cold");
-		break;
-	case "dog":
-		alert("no");
-		break;
-	default:
-		alert("it is name king bord kitchen");
-}
+// let youName = prompt("you name", "");
+// switch (youName) {
+// 	case "Artem":
+// 		alert("hot");
+// 		break;
+// 	case "Artur":
+// 		alert("welcome");
+// 		break;
+// 	case "Arut":
+// 		alert("wery hot");
+// 		break;
+// 	case "Ashot":
+// 		alert("cold");
+// 		break;
+// 	case "dog":
+// 		alert("no");
+// 		break;
+// 	default:
+// 		alert("it is name king bord kitchen");
+// }
+//task bk 6
+// const set = ["камень", "ножницы", "бумага"];
+// const you = prompt("камень, ножницы или бумага?", "");
+// const computer = set[Math.floor(Math.random() * set.length)];
+// console.log(`компьютер выбрал ${computer}`);
+// console.log(`ты выбрал ${you}`);
+
+// if (you === computer) {
+// 	alert("ничья");
+// } else if ((you === "камень" && computer === "ножницы") || (you === "ножницы" && computer === "бумага") || (you === "бумага" && computer === "камень")) {
+// 	alert("ты выиграл");
+// } else {
+// 	alert("ты проиграл");
+// }
