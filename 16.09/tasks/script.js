@@ -16,21 +16,30 @@
 
 //task 2
 //while
-let maxGame = 5;
-let random = Math.floor(Math.random() * maxGame) + 1;
-console.log(random);
-let correct = false;
+// let maxGame = 5;
+// let random = Math.floor(Math.random() * maxGame) + 1;
+// console.log(random);
+// let correct = false;
 
-while (!correct) {
-	let question = prompt("от 1 до 5? ", " ");
-	question = Number(question);
-	if (question === random) {
-		correct = true;
-		console.log("вы угадали! " + random);
-	} else if (question < random) {
-		console.log("близко почти наша цифра " + random);
-	} else {
-		console.log("повторите!");
-	}
-	break;
-}
+// while (!correct) {
+// 	let question = prompt("от 1 до 5? ", " ");
+// 	question = Number(question);
+// 	if (question === random) {
+// 		correct = true;
+// 		console.log("вы угадали! " + random);
+// 	} else if (question < random) {
+// 		console.log("близко почти наша цифра " + random);
+// 	} else {
+// 		console.log("повторите!");
+// 	}
+// 	break;
+// }
+//Циклы do while
+// Практическое занятие 5.2
+// let start = 0;
+// let step = 5;
+
+// do {
+// 	console.log(start);
+// 	start += step;
+// } while (start <= 100);
